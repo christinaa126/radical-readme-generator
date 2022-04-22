@@ -1,6 +1,6 @@
 // TODO: Add code to generate markdown for README given a data object parameter containing the user input.
 const generateMarkdown = ({ title, description, installation, usage, credits, license, badges, features, contribution, test, github, email }) =>
-`#${title}
+`#${title} ![License](https://img.shields.io/badge/license-${github}-blue)
 
 ## Description
 
@@ -43,7 +43,7 @@ ${badges}
 
 ${features}
 
-##Contribution
+## Contribution
 
 ${contribution}
 
@@ -52,9 +52,9 @@ ${contribution}
 ${test}
 
 ##Questions
-<a href= "https://github.com/${github}">Link to my Github profile.</a>
-If you have any questions, I can be reached by email at: ${email}
 
+<a href="https://github.com/${github}">Link to my Github profile.</a>
+If you have any questions, I can be reached by email at: ${email}
 
 `;
 

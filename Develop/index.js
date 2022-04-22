@@ -37,7 +37,7 @@ const init = () => {
       {
         type: 'list',
         name: 'license',
-        choices: ['HTML', 'CSS', 'Javascripts', 'Node'],
+        choices: ['MIT License (simple & permissive)', 'GNU Gplv3 (I care about sharing improvements)'],
       },
       {
         type: 'input',
@@ -81,4 +81,3 @@ const init = () => {
 
 init();
 
-// readme sections Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
